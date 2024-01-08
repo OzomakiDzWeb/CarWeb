@@ -1,9 +1,11 @@
-import React from 'react'
+import React from "react";
 
 const Why = () => {
   return (
-    <div>Why</div>
-  )
-}
+    <div className="section flex items-center bg-green-400" id="why">
+      Why
+    </div>
+  );
+};
 
-export default Why
+export default Why;
