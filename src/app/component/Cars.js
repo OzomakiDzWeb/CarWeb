@@ -1,11 +1,17 @@
-import React from 'react'
+"use client";
+import React from "react";
+import Brands from "./Brands";
+import CarSlider from "./CarSlider";
 
 const Cars = () => {
   return (
-    <section className="h-screen flex items-center bg-yellow-50 " id="cars">
-      Cars
+    <section className="h-screen flex items-center " id="cars">
+      <div className="container mx-auto">
+        <Brands />
+        <CarSlider />
+      </div>
     </section>
   );
-}
+};
 
-export default Cars
+export default Cars;

@@ -47,6 +47,9 @@
   .btn-sm {
     @apply h-14;
   }
+    .btn-lg {
+    @apply h-16;
+  }
   .btn-cta {
     @apply bg-primary h-[54px] rounded-[5px] px-4 transition-all duration-300;
   }

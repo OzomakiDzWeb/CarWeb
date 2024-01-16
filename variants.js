@@ -13,7 +13,7 @@ export const fadeIn = (derection, delay) => {
         type: "tween",
         duration: 1.2,
         delay: delay,
-        ease: [0.25, 0.25, 0.25, 0, 0.75],
+        ease: [0.25, 0.25, 0.25, 0.75],
       },
     },
   };
